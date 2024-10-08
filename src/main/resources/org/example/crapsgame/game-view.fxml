@@ -42,7 +42,7 @@
                   <Font name="System Bold" size="16.0" />
                </font>
             </Label>
-            <Button mnemonicParsing="false" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 16; -fx-border-width: 2;" text="?" textFill="WHITE">
+            <Button fx:id="helpButton" mnemonicParsing="false" onAction="#onActionHelpButton" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 16; -fx-border-width: 2;" text="?" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="16.0" />
                </font>
