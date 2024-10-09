@@ -24,5 +24,8 @@ public class Dice {
         this.diceImage = new Image(
                 getClass().getResourceAsStream(PATH + "dice" + this.value + ".png")
         );
+
     }
+
+
 }
